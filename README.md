@@ -54,8 +54,7 @@ Add notification layout
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:textColor="#333"
-            android:textSize="16sp"
-            tools:text="订单已取消" />
+            android:textSize="16sp" />
 
     </LinearLayout>
 
@@ -65,8 +64,7 @@ Add notification layout
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:textColor="#666"
-        android:textSize="14sp"
-        tools:text="您的订单已被取消，点击查看详情..." />
+        android:textSize="14sp" />
 
 </LinearLayout>
 ```
