@@ -34,9 +34,9 @@ public class MainActivity extends AppCompatActivity {
         ImageView icon = defNotification.findViewById(R.id.icon);
         icon.setImageDrawable(getDrawable(this));
         TextView title = defNotification.findViewById(R.id.title);
-        title.setText("订单已取消");
+        title.setText(getString(R.string.app_name));
         TextView content = defNotification.findViewById(R.id.content);
-        content.setText("您的订单已被取消，点击查看详情...");
+        content.setText("Your order has been cancelled, click for details...");
     }
 
     public void show(View v) {
