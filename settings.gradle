@@ -1,0 +1,3 @@
+rootProject.name='DefNotification'
+include ':app'
+include ':defnotification'
